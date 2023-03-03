@@ -1,7 +1,14 @@
 import React from 'react'
+import Featured from '@/components/Featured'
+import PizzaList from '@/components/PizzaList'
 
 const page = () => {
-  return <div>Home</div>
+  return (
+    <>
+      <Featured />
+      <PizzaList />
+    </>
+  )
 }
 
 export default page

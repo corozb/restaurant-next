@@ -1,7 +1,5 @@
-import Featured from '@/components/Featured'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
-import PizzaList from '@/components/PizzaList'
 import '../styles/globals.css'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -12,8 +10,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <Navbar />
-        <Featured />
-        <PizzaList />
         {children}
         <Footer />
       </body>
